@@ -62,8 +62,14 @@ body{
 	padding: 0 30px;
 }
 .section .container2{
-	padding-top: 60px;
-	padding-bottom: 70px;
+	padding-top: 120px;
+	/* padding-bottom: 70px;  */
+
+	width: 100%;
+	padding-right: 0.75rem;
+	padding-left: 0.75rem;
+	margin-right: auto;
+	margin-left: auto;
 }
 .section-title{
 	-ms-flex: 0 0 100%;
