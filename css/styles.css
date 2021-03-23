@@ -89,6 +89,28 @@ p {
   margin-bottom: 1rem;
 }
 
+.fa{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; 
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto 30px;
+    position: relative;
+    color: var(--text-black-600);
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -10147,8 +10169,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
-  opacity: 1.5;
+  background-image: url("../assets/img/theme/main6.jpg");
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10445,7 +10467,7 @@ header.masthead .masthead-heading {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  radius: 0.5rem;
+  border-radius: 0.5rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4 {

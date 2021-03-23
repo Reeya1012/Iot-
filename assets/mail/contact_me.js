@@ -56,8 +56,8 @@ $(function () {
                     $("#success > .alert-danger").append(
                         $("<strong>").text(
                             "Sorry " +
-                                firstName +
-                                ", it seems that my mail server is not responding. Please try again later!"
+                            firstName +
+                            ", it seems that my mail server is not responding. Please try again later!"
                         )
                     );
                     $("#success > .alert-danger").append("</div>");
@@ -86,15 +86,15 @@ $(function () {
 $("#name").focus(function () {
     $("#success").html("");
 });
-function sendEmail(name,phone,email,message){
-  Email.send({
-    HOST :"smtp.gmail.com",
-    Username: "rishikjain2001@gmail.com",
-    Password: "zvksqdnyawrhxtex",
-    To: "rishi.jain_19@sakec.ac.i",
-    From: "rishikjain2001@gmail.com",
-    Subject : ${name} sent you a message;
-    Body: "name: ${name} <br/> Email: $(email) <br/> Phone: ${phone} Message: ${message}",
+function sendEmail(name, phone, email, message) {
+    Email.send({
+        HOST: "smtp.gmail.com",
+        Username: "rishikjain2001@gmail.com",
+        Password: "zvksqdnyawrhxtex",
+        To: "rishi.jain_19@sakec.ac.i",
+        From: "rishikjain2001@gmail.com",
+        Subject: '${name} sent you a message',
+        Body: "name: ${name} <br/> Email: $(email) <br/> Phone: ${phone} Message: ${message}",
 
-  }).then((message) => alert("mail successfully sent"))
+    }).then((message) => alert("mail successfully sent"))
 }
