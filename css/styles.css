@@ -334,9 +334,9 @@ p {
 
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ 
+	/* .navbar .nav-item:hover .nav-link{  */
     /* background-color: #212529; */
-    }
+    /* } */
 	.navbar .nav-item:hover .dropdown-menu{ 
     display: block;
     background-color: #212529;
