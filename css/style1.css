@@ -64,12 +64,15 @@ body{
 .section .container2{
 	padding-top: 120px;
 	/* padding-bottom: 70px;  */
-
 	width: 100%;
 	padding-right: 0.75rem;
 	padding-left: 0.75rem;
 	margin-right: auto;
 	margin-left: auto;
+}
+.section .container2 .row h2{
+	padding: 2%;
+	margin-left: 35%;
 }
 .section-title{
 	-ms-flex: 0 0 100%;
