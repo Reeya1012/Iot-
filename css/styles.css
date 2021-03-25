@@ -334,15 +334,18 @@ p {
 
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
-	/* .navbar .nav-item:hover .nav-link{  */
-    /* background-color: #212529; */
-    /* } */
+	/* .navbar .nav-item:hover .nav-link{ 
+    background-color: #212529;
+    } */
 	.navbar .nav-item:hover .dropdown-menu{ 
     display: block;
     background-color: #212529;
   }
   .navbar .dropdown-item {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
     color: #fff;
+    letter-spacing: 0.0625em;
   }
   .navbar .dropdown-item:hover {
     color: #fed136;
@@ -3288,6 +3291,7 @@ input[type=button].btn-block {
   border-radius: 0.25rem;
 }
 
+
 .dropdown-menu-left {
   right: auto;
   left: 0;
@@ -3436,7 +3440,7 @@ input[type=button].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  /* color: #212529; */
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
