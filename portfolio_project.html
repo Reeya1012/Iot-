@@ -1,61 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>IOT World</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#Home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#services">Services</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#portfolio">Portfolio</a></li> -->
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle nav-link js-scroll-trigger" href="index.html#portfolio" data-toggle="dropdown">Portfolio
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>IOT World</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg"
+                    alt="" /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#Home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#services">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link js-scroll-trigger" href="index.html#portfolio"
+                            data-toggle="dropdown">Portfolio
+                        </a>
+                        <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="portfolio_project.html">Projects</a>
+                            <a class="dropdown-item" href="portfolio_tutorial.html">Tutorials</a>
+                            <a class="dropdown-item" href="portfolio_paper.html">Research Paper</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                            href="index.html#testimonial">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="team.html">Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- portfolio section start -->
+    <section class="portfolio-section section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="section-title"> -->
+                    <h2 data-heading="portfolio">PROJECTS</h2>
+                <!-- </div> -->
+            </div>
+            <!-- portfolio filter start -->
+            <!-- <div class="row">
+                <div class="portfolio-filter">
+                    <span class="filter-item outer-shadow active" data-target="all">all</span>
+                    <span class="filter-item" data-target="web-application">web application</span>
+                    <span class="filter-item" data-target="software">software</span>
+                    <span class="filter-item" data-target="mobile-app">mobile app</span>
+                    <span class="filter-item" data-target="e-commerce">e commerce</span>
+                    <span class="filter-item" data-target="machine-learning">Machine Learning</span>
+                </div>
+            </div> -->
+            <!-- portfolio filter end -->
+            <!-- portfolio items start -->
+            <div class="row portfolio-items">
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="web-application">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <a href="iot_project.html">
+                                <img src="assets/img/theme/IOT.png">
                             </a>
-                            <ul class="dropdown-menu">
-                                <a class="dropdown-item" href="portfolio_paper.html">Research Paper</a>
-                                <a class="dropdown-item" href="portfolio_project.html">Projects</a>
-                                <a class="dropdown-item" href="portfolio_tutorial.html">Tutorials</a>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#testimonial">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="team.html">Team</a></li>
-                    </ul>
+                            <!-- alt="portfolio" data-screenshots="img/portfolio/large/project-1/portfolio-1.PNG,
+                                img/portfolio/large/project-1/portfolio-2.PNG,
+                                img/portfolio/large/project-1/portfolio-3.PNG,
+                                img/portfolio/large/project-1/portfolio-4.PNG,
+                                img/portfolio/large/project-1/portfolio-5.PNG,
+                                img/portfolio/large/project-1/portfolio-6.PNG,
+                                img/portfolio/large/project-1/portfolio-7.PNG" -->
+
+                            <!-- view project btn -->
+                            <span class="view-project">Click here for more details</span>
+                        </div>
+                        <p class="portfolio-item-title">Arduino Boards</p>
+                        <!-- portfolio item details start-->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>Personal Portfolio for presenting my projects and achievements.</p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span>2021</span></li>
+                                        <!-- <li>Client - <span>xyz</span></li> -->
+                                        <li>Tools - <span>html, css, javascript</span></li>
+                                        <li>Web - <span><a href="https://bhavya-02022000.github.io/resume/">Bhavya Joshi
+                                                    Portfolio</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="e-commerce">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="assets/img/theme/IOE.png" >
+                            <!-- alt="portfolio" data-screenshots="img/portfolio/large/project-2/portfolio-1.PNG,
+                                img/portfolio/large/project-2/portfolio-2.PNG,
+                                img/portfolio/large/project-2/portfolio-3.PNG,
+                                img/portfolio/large/project-2/portfolio-4.PNG,
+                                img/portfolio/large/project-2/portfolio-5.PNG,
+                                img/portfolio/large/project-2/portfolio-6.PNG" -->
+                            <!-- view project btn -->
+                            <span class="view-project">Click here for more details</span>
+                        </div>
+                        <p class="portfolio-item-title">Raspberry Pi</p>
+                        <!-- portfolio item details start-->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>Developed an E-commerce website for selling Jewellery and other accessories.</p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span>2020</span></li>
+                                        <li>Client - <span>utsav creationss</span></li>
+                                        <li>Tools - <span>wordpress</span></li>
+                                        <li>Web - <span><a
+                                                    href="https://www.utsavcreationss.com/">utsavcreationss.com</a></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="mobile-app">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="assets/img/theme/MEP.jpg">
+                             <!-- alt="portfolio" data-screenshots="img/portfolio/large/project-3/portfolio-0.PNG,
+                                img/portfolio/large/project-3/portfolio-1.jpeg,
+                                img/portfolio/large/project-3/portfolio-2.jpeg,
+                                img/portfolio/large/project-3/portfolio-3.jpeg,
+                                img/portfolio/large/project-3/portfolio-4.jpeg,
+                                img/portfolio/large/project-3/portfolio-5.jpeg,
+                                img/portfolio/large/project-3/portfolio-6.jpeg,
+                                img/portfolio/large/project-3/portfolio-7.jpeg,
+                                img/portfolio/large/project-3/portfolio-8.jpeg,
+                                img/portfolio/large/project-3/portfolio-9.jpeg,
+                                img/portfolio/large/project-3/portfolio-10.jpeg"> -->
+                            <!-- view project btn -->
+                            <span class="view-project">Click here for more details</span>
+                        </div>
+                        <p class="portfolio-item-title">NodeMCU</p>
+                        <!-- portfolio item details start-->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>Admin feature for Covid Protect application to keep a track of health status of
+                                        members of admin's organisation.</p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span>2020</span></li>
+                                        <li>Client - <span>Blue Eye Soft Corp</span></li>
+                                        <li>Tools - <span>flutter, firebase realtime database, node.js</span></li>
+                                        <li>App - <span><a href="https://sakec.ai/">Covid Protect App</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="software">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="assets/img/theme/COA1.jfif" >
+                            <!-- alt="portfolio" data-screenshots="img/portfolio/large/project-4/portfolio-1.PNG,
+                                img/portfolio/large/project-4/portfolio-2.PNG"> -->
+                            <!-- view project btn -->
+                            <span class="view-project">Click here for more details</span>
+                        </div>
+                        <p class="portfolio-item-title">Multiple Boards</p>
+                        <!-- portfolio item details start-->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>A Deduplication system which identifies all the duplicates/ similar records from
+                                        a given dataset using machine learning algorithms. User can itself train the
+                                        dataset by giving a few samples of original records and duplicate records and
+                                        then on the basis of training the whole dataset will work on the algorithm and
+                                        will generate files containg unique records and similar records clustered.
+                                        <br>Records such as A kumar, Akshay k, Akshay Kumar will be considered as same
+                                        record if other attributes are also similar.
+                                    </p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span>2020</span></li>
+                                        <li>Client - <span>GCV Life</span></li>
+                                        <li>Tools - <span>Python, html, eel</span></li>
+                                        <!-- <li>App - <span><a href="https://sakec.ai/">Covid Protect App</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="machine-learning">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="assets/img/theme/SNL.jpg" >
+                            <!-- alt="portfolio" data-screenshots="img/portfolio/large/project-5/portfolio-1.PNG,
+                                img/portfolio/large/project-5/portfolio-2.PNG,
+                                img/portfolio/large/project-5/portfolio-3.PNG"> -->
+                            <!-- view project btn -->
+                            <span class="view-project">Click here for more details</span>
+                        </div>
+                        <p class="portfolio-item-title">Home Automation System</p>
+                        <!-- portfolio item details start-->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>A model is developed using Random Forest Regressor for predicting the price of a
+                                        car based on the parameters such as Year, Showroom price, Kilometers drived, No.
+                                        of previous owners of car, Fuel type, Dealer or Individual, Transmission type.
+                                        The model is trained using a dataset available on Kaggle</p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span>2021</span></li>
+                                        <!-- <li>Client - <span>GCV Life</span></li> -->
+                                        <li>Tools - <span>Python, flask</span></li>
+                                        <li>Link - <span><a href="https://car-price-prediction-001.herokuapp.com/">Car
+                                                    price prediction</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item" data-category="machine-learning">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="assets/img/theme/iot-boards1.jfif" >
+                            <!-- alt="portfolio" data-screenshots="img/portfolio/large/project-6/portfolio-1.PNG,
+                                img/portfolio/large/project-6/portfolio-2.PNG,
+                                img/portfolio/large/project-6/portfolio-3.PNG"> -->
+                            <!-- view project btn -->
+                            <span class="view-project">Click here for more details</span>
+                        </div>
+                        <p class="portfolio-item-title">E-Toilet & E-Dustbin</p>
+                        <!-- portfolio item details start-->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>A model is developed using Random Forest Regressor for predicting the fare of a
+                                        flight based on the parameters such as Departure Date and Time, Arrival Date and
+                                        Time, Source, Destination, No. of stops, Airline. The model is trained using a
+                                        dataset available on Kaggle</p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span>2021</span></li>
+                                        <!-- <li>Client - <span>GCV Life</span></li> -->
+                                        <li>Tools - <span>Python, flask</span></li>
+                                        <li>Link - <span><a
+                                                    href="https://ml-flight-fare-prediction-2021.herokuapp.com/">Flight
+                                                    Fare Prediction</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item details end -->
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+            </div>
+            <!-- portfolio items end -->
+            <!-- portfolio popup start -->
+            <div class="pp portfolio-popup">
+                <div class="pp-details">
+                    <div class="pp-details-inner">
+                        <div class="pp-title">
+                            <h2>personal portfolio</h2>
+                            <p>Category - <span class="pp-project-category">Web Application</span></p>
+                        </div>
+                        <div class="pp-project-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h3>Project Brief:</h3>
+                                    <p>Personal Portfolio for presenting my projects and achievements.</p>
+                                </div>
+                                <div class="info">
+                                    <h3>Project info</h3>
+                                    <ul>
+                                        <li>Date - <span>2021</span></li>
+                                        <!-- <li>Client - <span>xyz</span></li> -->
+                                        <li>Tools - <span>html, css, javascript</span></li>
+                                        <li>Web - <span><a href="https://bhavya-02022000.github.io/resume/">Bhavya Joshi
+                                                    Portfolio</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="pp-main">
+                    <div class="pp-main-inner">
+                        <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details<i
+                                class="fas fa-plus"></i></div>
+                        <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+                        <img src="img/portfolio/large/project-1/portfolio-1.PNG" alt="img" class="pp-img outer-shadow">
+                        <div class="pp-counter">1 0f 4</div>
+                    </div>
+                    <div class="pp-loader">
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <!-- pp navigation -->
+                    <div class="pp-prev"><i class="fas fa-play"></i></div>
+                    <div class="pp-next"><i class="fas fa-play"></i></div>
                 </div>
             </div>
+            <!-- portfolio popup end -->
+        </div>
+    </section>
+    <!-- portfolio section end -->
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <!-- <script src="assets/mail/contact_me.js"></script> -->
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-      </body>
-      </html>
+</html>
